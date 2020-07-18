@@ -17,7 +17,7 @@ export function getHotKey () {
 }
 
 export function search (query, page, zhida, perpage) {
-  const url = debug ? '/api/search' : 'http://localhost/api/search'
+  const url = debug ? '/api/search' : 'http://music.jserm.com/api/search'
 
   const data = Object.assign({}, commonParams, {
     w: query,
